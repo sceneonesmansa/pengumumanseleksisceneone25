@@ -45,9 +45,10 @@ function cekHasil() {
                 </a>
             `;
         } else {
-            hasilDiv.innerHTML = `<span style="color: red;">MAAF, Anda ${peserta.status}. Terima Kasih sudah mendaftar Sceneone </span>`;
+            hasilDiv.innerHTML = `<span style="color: red;">MAAF, Anda ${peserta.status}. Terima Kasih sudah mendaftar SceneOne! </span>`;
         }
     } else {
         hasilDiv.innerHTML = `<span style="color: yellow;">Nama atau password salah</span>`;
     }
 }
+
